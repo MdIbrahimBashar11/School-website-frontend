@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>স্কুল ওয়েবসাইট</title>
+    <!-- Bootstrap CSS -->
+    <link href="./web-assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts - Bangla -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="./web-assets/fontawesome-6.7.2/css/fontawesome.min.css">
+      -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation -->
+    <link href="./web-assets/css/aos.css" rel="stylesheet">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="./web-assets/css/carousel.min.css">
+    <link rel="stylesheet" href="./web-assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./web-assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <!-- Top Header -->
+        <div class="top-header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <span class="text-white"><i class="fas fa-phone-alt me-2"></i> +880 1712345678</span>
+                        <span class="text-white ms-3"><i class="fas fa-envelope me-2"></i> info@school.edu.bd</span>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <div class="social-icons">
+                            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Header -->
+        <div class="main-header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-8 col-sm-8 d-flex justify-content-between align-items-center">
+                        <div class="logo-container">
+                            <img src="https://amtolyhsbir.edu.bd/wp-content/uploads/2023/09/rrrr.png" alt="স্কুল লোগো"
+                                class="logo-img">
+                        </div>
+                        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </div>
+                    <div class="col-md-4 col-sm-4 text-end d-none d-lg-block">
+                        <button class="btn btn-warning">লগইন</button>
+                        <button class="btn btn-outline-light ms-2">রেজিস্ট্রেশন</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light nav-menu">
+            <div class="container">
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-home me-1"></i> হোম</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-info-circle me-1"></i> আমাদের সম্পর্কে
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                <li><a class="dropdown-item" href="./School-history.html">স্কুলের ইতিহাস</a></li>
+                                <li><a class="dropdown-item" href="./Goals-and-objectives.html">লক্ষ্য ও উদ্দেশ্য</a>
+                                </li>
+                                <li><a class="dropdown-item" href="./Headmaster's-message.html">প্রধান শিক্ষকের বাণী</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-chalkboard-teacher me-1"></i> শিক্ষক
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                <li><a class="dropdown-item" href="./Teachers.html">প্রধান শিক্ষক</a></li>
+                                <li><a class="dropdown-item" href="#">সহকারী শিক্ষক</a></li>
+                                <li><a class="dropdown-item" href="#">সকল শিক্ষক</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-user-graduate me-1"></i> শিক্ষার্থী
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                                <li><a class="dropdown-item" href="./Student.html">শিক্ষার্থীদের তালিকা</a></li>
+                                <li><a class="dropdown-item" href="#">নতুন ভর্তি</a></li>
+                                <li><a class="dropdown-item" href="#">ফলাফল</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="Routine.html"><i class="fas fa-book me-1"></i> রুটিন</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-user-graduate me-1"></i> নোটিশ
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                                <li><a class="dropdown-item" href="./notice.html">নোটিশ তালিকা</a></li>
+                                <li><a class="dropdown-item" href="./notice-details.html">নোটিশ দেখুন </a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-user-graduate me-1"></i> গ্যালারি
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                                <li><a class="dropdown-item" href="./Gallerys.html">গ্যালারি তালিকা</a></li>
+                                <li><a class="dropdown-item" href="./Gallery-details.html">গ্যালারি দেখুন </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-user-graduate me-1"></i> ব্লগ
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                                <li><a class="dropdown-item" href="./blogs.html">ব্লগ তালিকা</a></li>
+                                <li><a class="dropdown-item" href="./blog-details.html">ব্লগ ডিটেলস </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html"><i class="fas fa-phone me-1"></i> যোগাযোগ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Slider Section -->
+    <section class="hero-slider">
+        <div class="owl-carousel hero-carousel">
+            <div class="hero-slide"
+                style="background-image: url('https://amtolyhsbir.edu.bd/wp-content/uploads/2023/09/FB_IMG_1695284791148.jpg');">
+                <div class="hero-content">
+                    <h1 data-aos="fade-up" data-aos-delay="100">শিক্ষাই জাতির মেরুদণ্ড</h1>
+                    <p data-aos="fade-up" data-aos-delay="200">আমাদের আদর্শ উচ্চ বিদ্যালয়ে আপনাকে স্বাগতম। এখানে আমরা
+                        ছাত্রছাত্রীদের সর্বাঙ্গীন বিকাশে প্রতিশ্রুতিবদ্ধ।</p>
+                    <button data-aos="fade-up" data-aos-delay="300" class="btn btn-warning btn-lg">আরও জানুন</button>
+                </div>
+            </div>
+            <div class="hero-slide"
+                style="background-image: url('https://amtolyhsbir.edu.bd/wp-content/uploads/2023/09/FB_IMG_1695284806622_1.jpg');">
+                <div class="hero-content">
+                    <h1 data-aos="fade-up" data-aos-delay="100">উন্নত শিক্ষা, উন্নত ভবিষ্যৎ</h1>
+                    <p data-aos="fade-up" data-aos-delay="200">আমাদের লক্ষ্য শুধু শিক্ষাদান নয়, শিক্ষার্থীদের মধ্যে
+                        নৈতিক মূল্যবোধ ও দেশপ্রেম জাগ্রত করা।</p>
+                    <button data-aos="fade-up" data-aos-delay="300" class="btn btn-warning btn-lg">ভর্তি হোন</button>
+                </div>
+            </div>
+            <div class="hero-slide"
+                style="background-image: url('https://amtolyhsbir.edu.bd/wp-content/uploads/2023/09/FB_IMG_1695284806622_1.jpg');">
+                <div class="hero-content">
+                    <h1 data-aos="fade-up" data-aos-delay="100">গুণগত শিক্ষায় অগ্রগামী</h1>
+                    <p data-aos="fade-up" data-aos-delay="200">যোগ্য শিক্ষক মণ্ডলী এবং আধুনিক শিক্ষা উপকরণ দিয়ে আমরা
+                        শিক্ষার্থীদের ভবিষ্যৎ গড়ছি।</p>
+                    <button data-aos="fade-up" data-aos-delay="300" class="btn btn-warning btn-lg">আমাদের
+                        সম্পর্কে</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notice Start  -->
+
+
+    <!-- Notice End  -->
+
+    <!-- Stats Counter Section -->
+    <section class="stats-counter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 mt-2">
+                    <div class="stat-box" data-aos="fade-up" data-aos-delay="100">
+                        <h2 class="counter">3+</h2>
+                        <p>বছরের অভিজ্ঞতা</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mt-2">
+                    <div class="stat-box even" data-aos="fade-up" data-aos-delay="200">
+                        <h2 class="counter">2+</h2>
+                        <p>যোগ্য শিক্ষক</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mt-2">
+                    <div class="stat-box" data-aos="fade-up" data-aos-delay="300">
+                        <h2 class="counter">10+</h2>
+                        <p>সাফল্য অর্জন</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mt-2">
+                    <div class="stat-box even" data-aos="fade-up" data-aos-delay="400">
+                        <h2 class="counter">8+</h2>
+                        <p>শাখা</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>আমাদের সম্পর্কে</h2>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-img" data-aos="fade-right" data-aos-delay="100">
+                        <img src="https://amtolyhsbir.edu.bd/wp-content/uploads/2023/08/du_library.jpg" alt="স্কুল ভবন"
+                            class="img-fluid rounded">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content" data-aos="fade-left" data-aos-delay="200">
+                        <h3>আদর্শ উচ্চ বিদ্যালয়ের পরিচিতি</h3>
+                        <p>আমাদের স্কুলটি ১৯৮৫ সালে প্রতিষ্ঠিত হয় এবং তখন থেকে শিক্ষার আলো ছড়িয়ে দিচ্ছে। এই দীর্ঘ
+                            সময়ে আমরা হাজার হাজার ছাত্রছাত্রীকে শিক্ষিত করে তুলেছি, যারা এখন সমাজের বিভিন্ন ক্ষেত্রে
+                            সফলতার সাথে কাজ করছে।</p>
+                        <p>আমাদের স্কুলের প্রধান লক্ষ্য হলো শিক্ষার্থীদের মধ্যে জ্ঞান, দক্ষতা ও মূল্যবোধের সমন্বয়
+                            ঘটিয়ে তাদেরকে একজন সফল নাগরিক হিসেবে গড়ে তোলা। আমরা বিশ্বাস করি শিক্ষা শুধু বইয়ের মধ্যেই
+                            সীমাবদ্ধ নয়, বরং এটি জীবনের প্রতিটি দিক স্পর্শ করে।</p>
+                        <p>আমাদের রয়েছে আধুনিক লাইব্রেরি, কম্পিউটার ল্যাব, বিজ্ঞান ল্যাব, খেলার মাঠসহ সকল অত্যাধুনিক
+                            সুযোগ-সুবিধা।</p>
+                        <a href="#" class="btn btn-primary mt-3">আরও জানুন</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Principal's Message Section -->
+    <section id="principal-message" class="message-section bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>প্রধান শিক্ষকের বাণী</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="message-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="row align-items-center">
+                            <div class="col-md-3 text-center">
+                                <img src="https://amtolyhsbir.edu.bd/wp-content/uploads/2023/09/Untitled-111.jpg"
+                                    alt="প্রধান শিক্ষক" class="message-img">
+                                <h5 class="text-center mt-2">প্রফেসর ইমরান আলী</h5>
+                                <p class="text-center mb-0">প্রধান শিক্ষক</p>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="message-content">
+                                    <h4>শিক্ষার আলোকে আলোকিত হোক প্রতিটি শিক্ষার্থী</h4>
+                                    <p>প্রিয় অভিভাবক, শিক্ষার্থী এবং সম্মানিত অতিথিবৃন্দ,</p>
+                                    <p>আমাদের আদর্শ উচ্চ বিদ্যালয়ের পক্ষ থেকে আপনাদের সকলকে আন্তরিক অভিনন্দন। আমাদের
+                                        স্কুলের মূল লক্ষ্য হল শিক্ষার্থীদের মধ্যে একটি শক্তিশালী মূল্যবোধ, সামাজিক
+                                        দায়বদ্ধতা এবং উচ্চ শিক্ষাগত মান তৈরি করা। আমরা বিশ্বাস করি প্রতিটি শিক্ষার্থী
+                                        অনন্য এবং তাদের নিজস্ব গতিতে শিখতে সক্ষম।</p>
+                                    <p>আমাদের শিক্ষকমণ্ডলী সর্বদা ছাত্রছাত্রীদের সর্বোচ্চ সম্ভাবনা অর্জনে সাহায্য করতে
+                                        নিবেদিতপ্রাণ। আমরা শুধু ভাল ফলাফলই চাই না, আমরা চাই আমাদের শিক্ষার্থীরা হোক
+                                        সুনাগরিক, মানবিক মূল্যবোধে সমৃদ্ধ এবং দেশপ্রেমে উদ্বুদ্ধ।</p>
+                                    <p>আমি আশা করি আমাদের সম্মিলিত প্রচেষ্টায় আমরা শিক্ষার্থীদের একটি উজ্জ্বল ভবিষ্যৎ
+                                        নিশ্চিত করতে পারব।</p>
+                                    <a href="#" class="read-more">আরও পড়ুন <i class="fas fa-arrow-right ms-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chairman's Message Section -->
+    <section id="chairman-message" class="message-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>সভাপতির বাণী</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="message-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="row align-items-center">
+                            <div class="col-md-3 text-center">
+                                <img src="https://amtolyhsbir.edu.bd/wp-content/uploads/2023/09/Untitled-1.jpg"
+                                    alt="সভাপতি" class="message-img">
+                                <h5 class="text-center mt-2">মতিউর রহমান</h5>
+                                <p class="text-center mb-0">সভাপতি, পরিচালনা পরিষদ</p>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="message-content">
+                                    <h4>শিক্ষাই জাতির মেরুদণ্ড</h4>
+                                    <p>প্রিয় অভিভাবক, শিক্ষার্থী এবং শুভানুধ্যায়ীগণ,</p>
+                                    <p>আমাদের আদর্শ উচ্চ বিদ্যালয়ের পরিচালনা পরিষদের পক্ষ থেকে সকলকে শুভেচ্ছা। আমাদের
+                                        বিদ্যালয় সর্বদা একটি উন্নত শিক্ষাব্যবস্থা নিশ্চিত করতে প্রতিশ্রুতিবদ্ধ। বর্তমান
+                                        যুগে শিক্ষার গুরুত্ব অপরিসীম এবং আমরা বিশ্বাস করি একটি সুশিক্ষিত জাতিই পারে
+                                        দেশকে এগিয়ে নিতে।</p>
+                                    <p>আধুনিক শিক্ষা ব্যবস্থার সাথে তাল মিলিয়ে আমরা সর্বদা আমাদের শিক্ষার্থীদের জন্য
+                                        উন্নত শিক্ষা উপকরণ এবং শিক্ষাদান পদ্ধতি নিশ্চিত করি। পরিচালনা পরিষদ সর্বদা
+                                        শিক্ষকমণ্ডলী, অভিভাবক এবং শিক্ষার্থীদের সাথে সমন্বয় রেখে কাজ করে যাচ্ছে।</p>
+                                    <p>আমরা আশা করি, আমাদের বিদ্যালয় থেকে প্রতিটি শিক্ষার্থী আগামীর জন্য প্রস্তুত হয়ে
+                                        বেরিয়ে যাবে এবং নিজেদের কর্মের মাধ্যমে দেশ ও জাতির উন্নয়নে অবদান রাখবে।</p>
+                                    <a href="#" class="read-more">আরও পড়ুন <i class="fas fa-arrow-right ms-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Card Links Section -->
+    <section id="card-links" class="card-links-section bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>দ্রুত লিঙ্ক</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-2">
+                    <a href="#" class="card-link" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-users"></i>
+                        <h4>শিক্ষার্থীদের তালিকা</h4>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-2">
+                    <a href="#" class="card-link" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <h4>আমাদের শিক্ষকরা</h4>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-2">
+                    <a href="#" class="card-link" data-aos="fade-up" data-aos-delay="300">
+                        <i class="fas fa-bell"></i>
+                        <h4>নোটিশ</h4>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-2">
+                    <a href="#" class="card-link" data-aos="fade-up" data-aos-delay="400">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h4>ক্লাস রুটিন</h4>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-2">
+                    <a href="#" class="card-link" data-aos="fade-up" data-aos-delay="500">
+                        <i class="fas fa-chart-line"></i>
+                        <h4>ফলাফল</h4>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-2">
+                    <a href="#" class="card-link" data-aos="fade-up" data-aos-delay="600">
+                        <i class="fas fa-images"></i>
+                        <h4>ফটো গ্যালারি</h4>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-2">
+                    <a href="#" class="card-link" data-aos="fade-up" data-aos-delay="700">
+                        <i class="fas fa-video"></i>
+                        <h4>ভিডিও গ্যালারি</h4>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-2">
+                    <a href="#" class="card-link" data-aos="fade-up" data-aos-delay="800">
+                        <i class="fas fa-newspaper"></i>
+                        <h4>সাম্প্রতিক খবর</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teachers Section -->
+    <section id="teachers" class="teachers-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>আমাদের শিক্ষকরা</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="teacher-card" data-aos="fade-up" data-aos-delay="100">
+                        <img src="https://amtolyhsbir.edu.bd/wp-content/uploads/2023/09/Mukul-Sir-copy.jpg" alt="শিক্ষক"
+                            class="teacher-img">
+                        <div class="teacher-info">
+                            <h4>জনাব রফিকুল ইসলাম</h4>
+                            <p>গণিত শিক্ষক</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="teacher-card" data-aos="fade-up" data-aos-delay="200">
+                        <img src="https://amtolyhsbir.edu.bd/wp-content/uploads/2023/09/IMG-20230920-WA0000.jpg"
+                            alt="শিক্ষক" class="teacher-img">
+                        <div class="teacher-info">
+                            <h4>জনাব আব্দুল আলিম</h4>
+                            <p>বিজ্ঞান শিক্ষক</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="teacher-card" data-aos="fade-up" data-aos-delay="300">
+                        <img src="https://amtolyhsbir.edu.bd/wp-content/uploads/2023/09/IMG_20230925_121929_347.jpg"
+                            alt="শিক্ষক" class="teacher-img">
+                        <div class="teacher-info">
+                            <h4>জনাবা নাসরিন আক্তার</h4>
+                            <p>বাংলা শিক্ষক</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="teacher-card" data-aos="fade-up" data-aos-delay="400">
+                        <img src="https://amtolyhsbir.edu.bd/wp-content/uploads/2023/09/IMG_20230925_123513_123.jpg"
+                            alt="শিক্ষক" class="teacher-img">
+                        <div class="teacher-info">
+                            <h4>জনাবা সালমা খাতুন</h4>
+                            <p>ইংরেজি শিক্ষক</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-primary">সকল শিক্ষক দেখুন</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notice & Routine Section -->
+    <section id="notice-routine" class="notice-routine-section bg-light">
+        <div class="container">
+            <div class="row">
+                <!-- Notice Board -->
+                <div class="col-lg-6">
+                    <div class="section-title">
+                        <h2>নোটিশ</h2>
+                    </div>
+                    <div class="notice-board" data-aos="fade-up" data-aos-delay="100">
+                        <div class="notice-item">
+                            <span class="notice-date">১০ এপ্রিল, ২০২৫</span>
+                            <h5 class="notice-title">২০২৫ শিক্ষাবর্ষের ভর্তি বিজ্ঞপ্তি</h5>
+                            <p>২০২৫ শিক্ষাবর্ষের ভর্তি প্রক্রিয়া শুরু হয়েছে। অনলাইনে আবেদন করার শেষ তারিখ ২৫ এপ্রিল,
+                                ২০২৫।</p>
+                            <a href="#" class="read-more">বিস্তারিত <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                        <div class="notice-item">
+                            <span class="notice-date">০৫ এপ্রিল, ২০২৫</span>
+                            <h5 class="notice-title">বার্ষিক ক্রীড়া প্রতিযোগিতা</h5>
+                            <p>আগামী ১৫ এপ্রিল, ২০২৫ তারিখে বার্ষিক ক্রীড়া প্রতিযোগিতা অনুষ্ঠিত হবে। সকল শিক্ষার্থীকে
+                                অংশগ্রহণের জন্য উৎসাহিত করা হচ্ছে।</p>
+                            <a href="#" class="read-more">বিস্তারিত <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                        <div class="notice-item">
+                            <span class="notice-date">০১ এপ্রিল, ২০২৫</span>
+                            <h5 class="notice-title">মিড টার্ম পরীক্ষার সময়সূচি</h5>
+                            <p>মিড টার্ম পরীক্ষা আগামী ২০ এপ্রিল থেকে শুরু হবে। সকল শিক্ষার্থীকে প্রস্তুতি নেওয়ার জন্য
+                                অনুরোধ করা হচ্ছে।</p>
+                            <a href="#" class="read-more">বিস্তারিত <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <a href="#" class="btn btn-primary">সকল নোটিশ</a>
+                    </div>
+                </div>
+
+                <!-- Class Routine -->
+                <div class="col-lg-6">
+                    <div class="section-title">
+                        <h2>ক্লাস রুটিন</h2>
+                    </div>
+                    <div class="routine-board" data-aos="fade-up" data-aos-delay="200">
+                        <ul class="nav nav-tabs" id="routineTabs" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="six-tab" data-bs-toggle="tab"
+                                    data-bs-target="#class-six" type="button" role="tab" aria-controls="class-six"
+                                    aria-selected="true">ষষ্ঠ শ্রেণি</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="seven-tab" data-bs-toggle="tab"
+                                    data-bs-target="#class-seven" type="button" role="tab" aria-controls="class-seven"
+                                    aria-selected="false">সপ্তম শ্রেণি</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="eight-tab" data-bs-toggle="tab"
+                                    data-bs-target="#class-eight" type="button" role="tab" aria-controls="class-eight"
+                                    aria-selected="false">অষ্টম শ্রেণি</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content p-3 border border-top-0 rounded-bottom" id="routineTabContent">
+                            <div class="tab-pane fade show active" id="class-six" role="tabpanel"
+                                aria-labelledby="six-tab">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered">
+                                        <thead class="table-light">
+                                            <tr>
+                                                <th>দিন/সময়</th>
+                                                <th>৯:০০-৯:৪৫</th>
+                                                <th>৯:৪৫-১০:৩০</th>
+                                                <th>১০:৩০-১১:১৫</th>
+                                                <th>১১:১৫-১২:০০</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>রবিবার</td>
+                                                <td>বাংলা</td>
+                                                <td>ইংরেজি</td>
+                                                <td>গণিত</td>
+                                                <td>বিজ্ঞান</td>
+                                            </tr>
+                                            <tr>
+                                                <td>সোমবার</td>
+                                                <td>ইংরেজি</td>
+                                                <td>গণিত</td>
+                                                <td>বাংলা</td>
+                                                <td>সমাজ</td>
+                                            </tr>
+                                            <tr>
+                                                <td>মঙ্গলবার</td>
+                                                <td>গণিত</td>
+                                                <td>বিজ্ঞান</td>
+                                                <td>ইংরেজি</td>
+                                                <td>বাংলা</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="class-seven" role="tabpanel" aria-labelledby="seven-tab">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered">
+                                        <thead class="table-light">
+                                            <tr>
+                                                <th>দিন/সময়</th>
+                                                <th>৯:০০-৯:৪৫</th>
+                                                <th>৯:৪৫-১০:৩০</th>
+                                                <th>১০:৩০-১১:১৫</th>
+                                                <th>১১:১৫-১২:০০</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>রবিবার</td>
+                                                <td>ইংরেজি</td>
+                                                <td>গণিত</td>
+                                                <td>বাংলা</td>
+                                                <td>বিজ্ঞান</td>
+                                            </tr>
+                                            <tr>
+                                                <td>সোমবার</td>
+                                                <td>বাংলা</td>
+                                                <td>ইংরেজি</td>
+                                                <td>গণিত</td>
+                                                <td>সমাজ</td>
+                                            </tr>
+                                            <tr>
+                                                <td>মঙ্গলবার</td>
+                                                <td>গণিত</td>
+                                                <td>বিজ্ঞান</td>
+                                                <td>বাংলা</td>
+                                                <td>ইংরেজি</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="class-eight" role="tabpanel" aria-labelledby="eight-tab">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered">
+                                        <thead class="table-light">
+                                            <tr>
+                                                <th>দিন/সময়</th>
+                                                <th>৯:০০-৯:৪৫</th>
+                                                <th>৯:৪৫-১০:৩০</th>
+                                                <th>১০:৩০-১১:১৫</th>
+                                                <th>১১:১৫-১২:০০</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>রবিবার</td>
+                                                <td>গণিত</td>
+                                                <td>ইংরেজি</td>
+                                                <td>বাংলা</td>
+                                                <td>বিজ্ঞান</td>
+                                            </tr>
+                                            <tr>
+                                                <td>সোমবার</td>
+                                                <td>বাংলা</td>
+                                                <td>গণিত</td>
+                                                <td>ইংরেজি</td>
+                                                <td>সমাজ</td>
+                                            </tr>
+                                            <tr>
+                                                <td>মঙ্গলবার</td>
+                                                <td>ইংরেজি</td>
+                                                <td>বিজ্ঞান</td>
+                                                <td>গণিত</td>
+                                                <td>বাংলা</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <a href="#" class="btn btn-primary">সম্পূর্ণ রুটিন</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results" class="results-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>ফলাফল</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="result-content" data-aos="fade-right" data-aos-delay="100">
+                        <h3>আমাদের সাফল্য</h3>
+                        <p>আমাদের বিদ্যালয় সর্বদা শিক্ষার্থীদের সর্বোচ্চ সাফল্য অর্জনে সহায়তা করে আসছে। গত কয়েক বছরে
+                            আমাদের শিক্ষার্থীরা জেএসসি ও এসএসসি পরীক্ষায় ৯৮% পাস করেছে, যা জেলার মধ্যে সর্বোচ্চ।</p>
+                        <div class="progress-info mt-4">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>জেএসসি পাস রেট</span>
+                                <span>98%</span>
+                            </div>
+                            <div class="progress mb-4">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 98%"
+                                    aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>এসএসসি পাস রেট</span>
+                                <span>96%</span>
+                            </div>
+                            <div class="progress mb-4">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 96%"
+                                    aria-valuenow="96" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>এ+ প্রাপ্তি</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress mb-4">
+                                <div class="progress-bar bg-warning" role="progressbar" style="width: 85%"
+                                    aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="result-table" data-aos="fade-left" data-aos-delay="200">
+                        <h3>সর্বশেষ পরীক্ষার ফলাফল</h3>
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>শ্রেণি</th>
+                                        <th>মোট পরীক্ষার্থী</th>
+                                        <th>উত্তীর্ণ</th>
+                                        <th>পাস রেট</th>
+                                        <th>A+</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>ষষ্ঠ শ্রেণি</td>
+                                        <td>120</td>
+                                        <td>118</td>
+                                        <td>98.3%</td>
+                                        <td>85</td>
+                                    </tr>
+                                    <tr>
+                                        <td>সপ্তম শ্রেণি</td>
+                                        <td>115</td>
+                                        <td>112</td>
+                                        <td>97.4%</td>
+                                        <td>78</td>
+                                    </tr>
+                                    <tr>
+                                        <td>অষ্টম শ্রেণি</td>
+                                        <td>110</td>
+                                        <td>105</td>
+                                        <td>95.5%</td>
+                                        <td>70</td>
+                                    </tr </div>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent News - Blog Section -->
+    <section class="recent-news py-5">
+        <div class="container">
+            <div class="section-title">
+                <h2>সাম্প্রতিক খবর</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="blog-card">
+                        <div class="blog-image-container">
+                            <img src="https://amtolyhsbir.edu.bd/wp-content/uploads/2023/08/ezgif.com-webp-to-jpg.jpg"
+                                alt="বার্ষিক ক্রীড়া প্রতিযোগিতা" class="blog-image">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-date">১৫ জুন, ২০২৩</div>
+                            <h3 class="blog-title">বার্ষিক ক্রীড়া প্রতিযোগিতা ২০২৩</h3>
+                            <p class="blog-excerpt">আমাদের স্কুলের বার্ষিক ক্রীড়া প্রতিযোগিতা অনুষ্ঠিত হয়েছে গত
+                                সপ্তাহে...</p>
+                            <a href="#" class="read-more">আরও পড়ুন <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="blog-card">
+                        <div class="blog-image-container">
+                            <img src="https://amtolyhsbir.edu.bd/wp-content/uploads/2023/08/ezgif.com-crop.jpg"
+                                alt="বিজ্ঞান মেলা" class="blog-image">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-date">১০ জুন, ২০২৩</div>
+                            <h3 class="blog-title">বিজ্ঞান মেলা ২০২৩</h3>
+                            <p class="blog-excerpt">এই বছরের বিজ্ঞান মেলায় আমাদের ছাত্রছাত্রীরা অসাধারণ প্রকল্প
+                                উপস্থাপন করেছে...</p>
+                            <a href="#" class="read-more">আরও পড়ুন <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="blog-card">
+                        <div class="blog-image-container">
+                            <img src="https://amtolyhsbir.edu.bd/wp-content/uploads/2023/08/ezgif.com-webp-to-jpg1.jpg"
+                                alt="শিক্ষক দিবস" class="blog-image">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-date">৫ জুন, ২০২৩</div>
+                            <h3 class="blog-title">শিক্ষক দিবস উদযাপন</h3>
+                            <p class="blog-excerpt">আন্তর্জাতিক শিক্ষক দিবস উপলক্ষে আমাদের স্কুলে বিশেষ অনুষ্ঠানের
+                                আয়োজন করা হয়েছিল...</p>
+                            <a href="#" class="read-more">আরও পড়ুন <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="notice-bar">
+        <div class="notice-bar__text-wrapper">
+          <span class="notice-bar__scrolling-text" id="noticeText">
+            🚨 Important: This is a scrolling notice using your design colors! 🚨
+          </span>
+        </div>
+      </div>
+
+
+
+    <!-- Footer Section -->
+    <footer class="school-footer">
+        <div class="footer-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                        <div class="footer-about">
+                            <div class="footer-logo">
+                                <img src="https://amtolyhsbir.edu.bd/wp-content/uploads/2023/08/logo.png"
+                                    alt="আমতলী উচ্চ বিদ্যালয়" class="img-fluid" width="35%">
+                            </div>
+                            <p class="school-description">
+                                আমতলী উচ্চ বিদ্যালয় বাংলাদেশের খুলনা বিভাগের অন্যতম প্রথম কলেজ যা খুলনা শহরে গৌরবপূর্ণ
+                                ঐতিহ্য নিয়ে অবস্থিত। ১৯০১ সালের জুলাই মাসে মহান শিক্ষক প্রতিষ্ঠানের শিক্ষাগুরু
+                                শ্রীব্রজলাল চক্রবর্তী (শাস্ত্রী) অবদানের চিহ্ন কলেজের আমল ও এবং আমলার উপর গৌরবপূর্ণে
+                                চিহ্ন একাডেমী নামে এটি প্রতিষ্ঠিত করেন।
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <div class="footer-widget">
+                            <h4 class="widget-title">যোগাযোগের ঠিকানা</h4>
+                            <ul class="footer-contact">
+                                <li>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>মুজাহেদপুর, বাগেরহাট, দিনাজপুর</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-phone-alt"></i>
+                                    <span>০১৭২৪৭৪৬১১৮৭</span>
+                                </li>
+                                <li>
+                                    <i class="fab fa-whatsapp"></i>
+                                    <span>০১৭২৪৭৪৬১১৮৭</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-envelope"></i>
+                                    <span>amtolyhsc@gmail.com</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <div class="footer-widget">
+                            <h4 class="widget-title">গুরুত্বপূর্ণ লিংক</h4>
+                            <div class="row">
+                                <div class="col-6">
+                                    <ul class="footer-links">
+                                        <li><a href="#"><i class="fas fa-chevron-right"></i> জাতীয় তথ্য বাতায়ন</a>
+                                        </li>
+                                        <li><a href="#"><i class="fas fa-chevron-right"></i> প্রধানমন্ত্রীর
+                                                কার্যালয়</a></li>
+                                        <li><a href="#"><i class="fas fa-chevron-right"></i> প্রাথমিক শিক্ষা
+                                                অধিদপ্তর</a></li>
+                                        <li><a href="#"><i class="fas fa-chevron-right"></i> শিক্ষাতথ্য ও পরিসংখ্যান
+                                                ব্যুরো</a></li>
+                                        <li><a href="#"><i class="fas fa-chevron-right"></i> কারিগরি শিক্ষা বোর্ড</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="footer-links">
+                                        <li><a href="#"><i class="fas fa-chevron-right"></i> রাষ্ট্রপতির কার্যালয়</a>
+                                        </li>
+                                        <li><a href="#"><i class="fas fa-chevron-right"></i> শিক্ষা মন্ত্রণালয়</a></li>
+                                        <li><a href="#"><i class="fas fa-chevron-right"></i> মাধ্যমিক ও উচ্চশিক্ষা
+                                                অধিদপ্তর</a></li>
+                                        <li><a href="#"><i class="fas fa-chevron-right"></i> শিক্ষা বোর্ডের ফলাফল</a>
+                                        </li>
+                                        <li><a href="#"><i class="fas fa-chevron-right"></i> দিনাজপুর শিক্ষা বোর্ড</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6">
+                        <div class="footer-widget">
+                            <h4 class="widget-title">সামাজিক মাধ্যম</h4>
+                            <div class="social-links">
+                                <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+                                <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                            </div>
+
+                            <div class="footer-app mt-4">
+                                <h5>মোবাইল অ্যাপ</h5>
+                                <div class="app-buttons">
+                                    <a href="#" class="app-btn">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                                            alt="Play Store">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="copyright">
+                            <p>© ২০২৩ আমতলী উচ্চ বিদ্যালয় সর্বস্বত্ব সংরক্ষিত</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="developer-info text-md-end">
+                            <p>Developed By: <a href="#" target="_blank">Prime IT World</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Required JavaScript Libraries -->
+    <script src="./web-assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./web-assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./web-assets/js/aos.js"></script>
+    <script src="./web-assets/js/owl.carousel.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script>
+        // Initialize AOS Animation
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+        // Initialize Owl Carousel
+        $(document).ready(function () {
+            $('.owl-carousel.hero-carousel').owlCarousel({
+                items: 1,
+                loop: true,
+                margin: 0,
+                nav: true,
+                dots: true,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                autoplayHoverPause: true,
+                navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>']
+            });
+
+            // Add animation class when elements come into view
+            $(window).scroll(function () {
+                $('.fade-up').each(function () {
+                    var elementTop = $(this).offset().top;
+                    var windowBottom = $(window).scrollTop() + $(window).height();
+                    if (elementTop < windowBottom) {
+                        $(this).addClass('in-view');
+                    }
+                });
+            });
+        });
+    </script>
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+    const text = document.getElementById('noticeText');
+    // Reset the animation (force restart on reload)
+    text.style.animation = 'none';
+    // Trigger reflow to reset
+    void text.offsetWidth;
+    text.style.animation = '';
+    // Optionally: Set focus or ARIA-live for accessibility, if needed
+});
+    </script>
+</body>
+
+</html>
